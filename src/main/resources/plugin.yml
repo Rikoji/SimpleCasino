@@ -1,0 +1,16 @@
+name: SimpleCasino
+version: '1.0-R1'
+main: de.hilsmann.simpleCasino.SimpleCasino
+api-version: '1.21'
+prefix: SimpleCasino
+authors: [ Rikoji, mao_ex ]
+description: Its a simple Casino :)
+website: mcsw.me
+
+permissions:
+  casino.play:
+    description: Erlaubt das Spielen an der Slot-Maschine
+    default: true
+  casino.admin:
+    description: Erlaubt das Verwalten des Casino-Plugins
+    default: op
