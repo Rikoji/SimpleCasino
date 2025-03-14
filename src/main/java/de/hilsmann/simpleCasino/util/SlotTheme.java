@@ -57,10 +57,10 @@ public abstract class SlotTheme {
             int weight;
             if (multiplier >= 10) weight = 4;  // Jackpot → Extrem selten
             else if (multiplier >= 8) weight = 6; // Sehr selten
-            else if (multiplier >= 5) weight = 10; // Selten
-            else if (multiplier >= 2) weight = 18; // Mittelhäufig
-            else if (multiplier == 1) weight = 30; // Mittelhäufig
-            else weight = 15;  // Nieten bzw. Störitems
+            else if (multiplier >= 5) weight = 12; // Selten
+            else if (multiplier >= 2) weight = 29; // Mittelhäufig
+            else if (multiplier == 1) weight = 42; // Häufig Trostpreis
+            else weight = 7;  // Nieten bzw. Störitems
 
             for (int i = 0; i < weight; i++) {
                 weightedReel.add(material);
